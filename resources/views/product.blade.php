@@ -8,10 +8,11 @@
   <table class="table table-dark table-striped">
 <thread>
     <tr>
-        <th>OrderId</th>
-        <th>OrderDate</th>
-        <th>OrderAmount</th>
-        <th>Status</th>
+        <th>ProductId</th>
+        <th>ProductName</th>
+        <th>Description</th>
+        <th>Price</th>
+        <th>QuantityInStock</th>
     </tr>   
 </thread>
 
@@ -20,10 +21,11 @@
     <td>asdas</td>
     <td>asdasd</td>
     <td>asdasd</td>
+    <td>asdasd</td>
 </tbody>
-
 <tbody>
-    <td>asdas</td>
+    <td>asdasd</td>
+    <td>ss</td>
     <td>asdas</td>
     <td>asdasd</td>
     <td>asdasd</td>

@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id('CustomerID');
             $table->string('FirstName');
             $table->string('LastName');
+            $table->string('Email');
             $table->integer('Phone');
 
         });

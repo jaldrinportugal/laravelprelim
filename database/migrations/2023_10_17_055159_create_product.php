@@ -15,8 +15,8 @@ return new class extends Migration
             $table->increments('ProductID');
             $table->string('ProductName');
             $table->string('Description');
-            $table->string('Price');
-            $table->string('QuantityInStock');
+            $table->integer('Price');
+            $table->integer('QuantityInStock');
         });
     }
 

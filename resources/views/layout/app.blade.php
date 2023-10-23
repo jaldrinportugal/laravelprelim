@@ -13,7 +13,7 @@
         <div class="row justify-content-between">
             <div id="aa" class="text-warning">Inventory System</div> 
             <nav>
-            <a class="text-warning p-3" href="{{ route('product') }}">Products</a>
+            <a class="p-3" href="{{ route('product') }}">Products</a>
             <a class="p-3" href="{{ route('supplier') }}">Supplier</a>
             <a class="p-3" href="{{ route('category') }}">Category</a>
             <a class="p-3" href="{{ route('order') }}">Order</a>
