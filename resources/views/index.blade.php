@@ -8,21 +8,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
-
-
-<header class="bg-dark p-3">
-    <div class="container">
-        <div class="row justify-content-between">
-            <div class="text-warning">Inventory System</div> 
-        </div>
-    </div>
-</header>
-<style>
-        {
-            padding-bottom: 50px;
-        }
-    
-</style>
 <div>
   <table class="table table-dark table-striped">
 <thread>
@@ -74,6 +59,7 @@
             </div>
         </form>
     </div>
+        <br>
 </div>  
 </body>
 </html>
