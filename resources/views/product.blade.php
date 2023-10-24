@@ -15,21 +15,14 @@
         <th>QuantityInStock</th>
     </tr>   
 </thread>
+<tbody>
+    <td>{{ $products->ProductId; }}</td>
+    <td>{{ $products->ProductName; }}</td>
+    <td>{{ $products->Description; }}</td>
+    <td>{{ $products->Price; }}</td>
+    <td>{{ $products->QuantityInStock; }}</td>
+</tbody>
 
-<tbody>
-    <td>{{ $products->ProductName; }}</td>
-    <td>{{ $products->ProductName; }}</td>
-    <td>asdasd</td>
-    <td>asdasd</td>
-    <td>asdasd</td>
-</tbody>
-<tbody>
-    <td>asdasd</td>
-    <td>ss</td>
-    <td>asdas</td>
-    <td>asdasd</td>
-    <td>asdasd</td>
-</tbody>
 </div>
 
     <div class="row">
