@@ -17,8 +17,8 @@
 </thread>
 
 <tbody>
-    <td>asdas</td>
-    <td>asdas</td>
+    <td>{{ $products->ProductName; }}</td>
+    <td>{{ $products->ProductName; }}</td>
     <td>asdasd</td>
     <td>asdasd</td>
     <td>asdasd</td>

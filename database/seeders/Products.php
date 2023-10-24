@@ -12,7 +12,7 @@ class Products extends Seeder
      */
     public function run(): void
     {
-        DB::table('product')->insert([
+        DB::table('products')->insert([
             'ProductId'=>1,
             'ProductName'=>'ss',
             'Description'=>'windsc',
