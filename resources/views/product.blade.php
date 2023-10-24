@@ -16,11 +16,15 @@
     </tr>   
 </thread>
 <tbody>
+    @foreach ($products as $product )
+ <tr>
     <td>{{ $products->ProductId; }}</td>
     <td>{{ $products->ProductName; }}</td>
     <td>{{ $products->Description; }}</td>
     <td>{{ $products->Price; }}</td>
     <td>{{ $products->QuantityInStock; }}</td>
+</tr> 
+    @endforeach
 </tbody>
 
 </div>
